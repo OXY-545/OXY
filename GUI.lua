@@ -1734,3 +1734,5 @@ configsettings:addButton({text = "Load",callback = library.loadConfig})
 configsettings:addButton({text = "Update",callback = library.saveConfig})
 configsettings:addButton({text = "Delete",callback = library.deleteConfig})
 configsettings:addButton({text = "Refresh",callback = library.refreshConfigs})
+
+return library
