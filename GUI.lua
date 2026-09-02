@@ -723,7 +723,7 @@ function library:addTab(name)
 				else
 					fill:TweenSize(UDim2.new(0,1,1,0),Enum.EasingDirection.In,Enum.EasingStyle.Sine,0.01)
                 end
-                valuetext.Text = value..sub
+                valuetext.Text = value
                 library.flags[args.flag] = value
                 if args.callback then
                     args.callback(value)
